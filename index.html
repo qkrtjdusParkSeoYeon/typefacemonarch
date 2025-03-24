@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monarch Typeface</title>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- 왼쪽 칼럼 (UI 요소들) -->
+    <div class="left-panel">
+      <div class="font-description">
+        <h4>Monarch Typeface : Info</h4>
+        <div class="description1">
+       
+        </div>
+       </div>
+      <div class="controls-box">
+      <div class="slider-container">
+        <label for="fontSizeSlider">
+          <span id="fontSizeValue">60</span>px
+        </label>
+        <input type="range" id="fontSizeSlider" min="60" max="150" value="80" step="10">
+      </div>
+  
+      <div class="theme-controls">
+        <button id="lightThemeBtn" class="theme-btn light"></button>
+        <button id="darkThemeBtn" class="theme-btn dark"></button>
+      </div>
+    </div>
+    </div>
+  
+    <!-- 오른쪽 칼럼 (텍스트 입력) -->
+    <div class="right-panel">
+      <textarea id="typingArea">Monarch is a serif typeface inspired by the form of a butterfly, featuring dramatic curves.
+      </textarea>
+    </div>
+ 
+  </div>
+  
+  <div class="image-reveal">
+    <img src="files/butterfly1.png" class="butterfly" id="butterfly1">
+    <img src="files/butterfly2.png" class="butterfly" id="butterfly2">
+    <img src="files/butterfly3.png" class="butterfly" id="butterfly3">
+    <img src="files/butterfly4.png" class="butterfly" id="butterfly4">
+    <img src="files/butterfly5.png" class="butterfly" id="butterfly5">
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
