@@ -183,7 +183,7 @@ textarea {
   position: absolute;
   top: 5%;
   line-height: 1.2; /* or 80px 등 고정 값 */
-  width: 90vw;
+  width: 80vw;
   height: 95vh;
   font-family: '1126-Regular', sans-serif !important;
   font-size: 70px;
